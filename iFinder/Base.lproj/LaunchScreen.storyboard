@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="EKQ-tj-brn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="24A-k7-hhB">
+            <objects>
+                <viewController id="EKQ-tj-brn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x4D-KI-eeD"/>
+                        <viewControllerLayoutGuide type="bottom" id="jKa-ve-Ikg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qz4-PG-B83">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="iFinder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Taa-9Q-yAN">
+                                <rect key="frame" x="220" y="286" width="161" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="f2d-LG-pee"/>
+                                    <constraint firstAttribute="width" constant="161" id="raA-ep-2rT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="raA-ep-2rT"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTY-SL-Fwx">
+                                <rect key="frame" x="270" y="443" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="C9W-pL-Hkv">
+                                <rect key="frame" x="282" y="472" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="1MZ-9e-SN1"/>
+                                    <constraint firstAttribute="width" constant="37" id="QlX-e2-HtQ"/>
+                                </constraints>
+                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QlX-e2-HtQ"/>
+                                    </mask>
+                                </variation>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finder-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="PbQ-kb-vcy">
+                                <rect key="frame" x="217" y="111" width="167" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="BUQ-za-mUv"/>
+                                    <constraint firstAttribute="width" constant="167" id="yQG-7D-yZS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BUQ-za-mUv"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="top" secondItem="PbQ-kb-vcy" secondAttribute="bottom" constant="8" symbolic="YES" id="4ab-rl-ek0"/>
+                            <constraint firstItem="PbQ-kb-vcy" firstAttribute="top" secondItem="x4D-KI-eeD" secondAttribute="bottom" constant="91" id="5Pd-2x-Xb0"/>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="centerX" secondItem="CTY-SL-Fwx" secondAttribute="centerX" id="81V-dS-Ji0"/>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="leading" secondItem="PbQ-kb-vcy" secondAttribute="leading" id="BRd-TL-Syj"/>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="top" secondItem="x4D-KI-eeD" secondAttribute="bottom" constant="266" id="CvW-Tt-eXS"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="centerX" secondItem="CTY-SL-Fwx" secondAttribute="centerX" id="SLx-d1-dtM"/>
+                            <constraint firstItem="jKa-ve-Ikg" firstAttribute="top" secondItem="C9W-pL-Hkv" secondAttribute="bottom" constant="91" id="TkG-ie-HFY"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="top" secondItem="CTY-SL-Fwx" secondAttribute="bottom" constant="8" id="UYe-rB-5c0"/>
+                            <constraint firstItem="PbQ-kb-vcy" firstAttribute="centerX" secondItem="Taa-9Q-yAN" secondAttribute="centerX" id="YmE-JR-flB"/>
+                            <constraint firstItem="PbQ-kb-vcy" firstAttribute="centerX" secondItem="Taa-9Q-yAN" secondAttribute="centerX" id="aYX-CA-qR5"/>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="centerX" secondItem="Qz4-PG-B83" secondAttribute="centerX" id="d0e-bh-eBU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Taa-9Q-yAN" secondAttribute="trailing" constant="199" id="h25-b8-rlt"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="top" secondItem="CTY-SL-Fwx" secondAttribute="bottom" constant="8" symbolic="YES" id="hvF-D5-q3Z"/>
+                            <constraint firstItem="Taa-9Q-yAN" firstAttribute="leading" secondItem="Qz4-PG-B83" secondAttribute="leadingMargin" constant="200" id="kZR-gw-kaS"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="leading" secondItem="PbQ-kb-vcy" secondAttribute="leading" id="lDY-TA-Hxa"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="top" secondItem="CTY-SL-Fwx" secondAttribute="bottom" constant="8" id="pNz-7a-zYx"/>
+                            <constraint firstItem="CTY-SL-Fwx" firstAttribute="top" secondItem="Taa-9Q-yAN" secondAttribute="bottom" constant="129" id="qj0-C7-BS6"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="centerX" secondItem="Taa-9Q-yAN" secondAttribute="centerX" id="quv-mz-JTj"/>
+                            <constraint firstItem="C9W-pL-Hkv" firstAttribute="top" secondItem="CTY-SL-Fwx" secondAttribute="bottom" constant="8" id="vAn-df-sCi"/>
+                            <constraint firstItem="CTY-SL-Fwx" firstAttribute="top" secondItem="Taa-9Q-yAN" secondAttribute="bottom" constant="129" id="wVl-dm-0FY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YmE-JR-flB"/>
+                                <exclude reference="h25-b8-rlt"/>
+                                <exclude reference="BRd-TL-Syj"/>
+                                <exclude reference="kZR-gw-kaS"/>
+                                <exclude reference="quv-mz-JTj"/>
+                                <exclude reference="lDY-TA-Hxa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6d-b6-q05" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="380"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="finder-icon.png" width="1024" height="1024"/>
+    </resources>
+</document>

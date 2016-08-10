@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E132FE551CBD5370006509BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE541CBD5370006509BA /* main.m */; };
+		E132FE5E1CBD5370006509BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132FE5C1CBD5370006509BA /* Main.storyboard */; };
+		E132FE601CBD5370006509BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E132FE5F1CBD5370006509BA /* Assets.xcassets */; };
+		E132FE631CBD5370006509BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132FE611CBD5370006509BA /* LaunchScreen.storyboard */; };
+		E132FE6E1CBD5370006509BA /* iFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE6D1CBD5370006509BA /* iFinderTests.m */; };
+		E132FE791CBD5370006509BA /* iFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE781CBD5370006509BA /* iFinderUITests.m */; };
+		E132FE911CBD545F006509BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE8A1CBD545F006509BA /* AppDelegate.m */; };
+		E132FE921CBD545F006509BA /* DirectoryBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE8C1CBD545F006509BA /* DirectoryBrowserTableViewController.m */; };
+		E132FE931CBD545F006509BA /* External.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE8E1CBD545F006509BA /* External.m */; };
+		E132FE941CBD545F006509BA /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE901CBD545F006509BA /* Home.m */; };
+		E132FE991CBD547C006509BA /* TextEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E132FE971CBD547C006509BA /* TextEditViewController.m */; };
+		E132FEA31CBD54A3006509BA /* wallpaper-mountians.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E132FE9A1CBD54A3006509BA /* wallpaper-mountians.jpg */; };
+		E132FEA41CBD54A3006509BA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FE9B1CBD54A3006509BA /* back.png */; };
+		E132FEA51CBD54A3006509BA /* delete_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FE9C1CBD54A3006509BA /* delete_sign.png */; };
+		E132FEA71CBD54A3006509BA /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FE9E1CBD54A3006509BA /* file.png */; };
+		E132FEA81CBD54A3006509BA /* finder-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FE9F1CBD54A3006509BA /* finder-icon.png */; };
+		E132FEA91CBD54A3006509BA /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEA01CBD54A3006509BA /* forward.png */; };
+		E132FEAA1CBD54A3006509BA /* shared.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEA11CBD54A3006509BA /* shared.png */; };
+		E132FEAD1CBD5834006509BA /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEAC1CBD5834006509BA /* folder.png */; };
+		E132FEB21CBD7725006509BA /* SidebariDisk.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEB01CBD7725006509BA /* SidebariDisk.png */; };
+		E132FEB31CBD7725006509BA /* SidebariPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEB11CBD7725006509BA /* SidebariPhone.png */; };
+		E132FEB71CBD7847006509BA /* SidebarMoviesFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEB41CBD7847006509BA /* SidebarMoviesFolder.png */; };
+		E132FEB81CBD7847006509BA /* SidebarMusicFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEB51CBD7847006509BA /* SidebarMusicFolder.png */; };
+		E132FEB91CBD7847006509BA /* SidebarPicturesFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEB61CBD7847006509BA /* SidebarPicturesFolder.png */; };
+		E132FEC11CBD8524006509BA /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E132FEC01CBD8524006509BA /* NotificationCenter.framework */; };
+		E132FEC41CBD8524006509BA /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E132FEC31CBD8524006509BA /* TodayViewController.swift */; };
+		E132FEC71CBD8524006509BA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132FEC51CBD8524006509BA /* MainInterface.storyboard */; };
+		E132FECB1CBD8524006509BA /* Finder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E132FEBE1CBD8524006509BA /* Finder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E132FED11CBD85F1006509BA /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FED01CBD85F1006509BA /* wifi.png */; };
+		E132FED31CBD85FF006509BA /* empty_battery.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FED21CBD85FF006509BA /* empty_battery.png */; };
+		E132FED51CBD86B7006509BA /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FED41CBD86B7006509BA /* bluetooth.png */; };
+		E132FED71CBD86D2006509BA /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FED61CBD86D2006509BA /* sun.png */; };
+		E132FED91CBD88D4006509BA /* clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FED81CBD88D4006509BA /* clouds.png */; };
+		E132FEDB1CBD8926006509BA /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEDA1CBD8926006509BA /* keyboard.png */; };
+		E132FEDD1CBD95B4006509BA /* plist.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FEDC1CBD95B4006509BA /* plist.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E132FE6A1CBD5370006509BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E132FE481CBD5370006509BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E132FE4F1CBD5370006509BA;
+			remoteInfo = iFinder;
+		};
+		E132FE751CBD5370006509BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E132FE481CBD5370006509BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E132FE4F1CBD5370006509BA;
+			remoteInfo = iFinder;
+		};
+		E132FEC91CBD8524006509BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E132FE481CBD5370006509BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E132FEBD1CBD8524006509BA;
+			remoteInfo = Finder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E132FECF1CBD8524006509BA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E132FECB1CBD8524006509BA /* Finder.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E132FE501CBD5370006509BA /* iFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E132FE541CBD5370006509BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E132FE5D1CBD5370006509BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E132FE5F1CBD5370006509BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E132FE621CBD5370006509BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E132FE641CBD5370006509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132FE691CBD5370006509BA /* iFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E132FE6D1CBD5370006509BA /* iFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFinderTests.m; sourceTree = "<group>"; };
+		E132FE6F1CBD5370006509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132FE741CBD5370006509BA /* iFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E132FE781CBD5370006509BA /* iFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFinderUITests.m; sourceTree = "<group>"; };
+		E132FE7A1CBD5370006509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132FE871CBD5455006509BA /* iFinder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iFinder-Prefix.pch"; sourceTree = "<group>"; };
+		E132FE891CBD545F006509BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E132FE8A1CBD545F006509BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E132FE8B1CBD545F006509BA /* DirectoryBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryBrowserTableViewController.h; sourceTree = "<group>"; };
+		E132FE8C1CBD545F006509BA /* DirectoryBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryBrowserTableViewController.m; sourceTree = "<group>"; };
+		E132FE8D1CBD545F006509BA /* External.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = External.h; sourceTree = "<group>"; };
+		E132FE8E1CBD545F006509BA /* External.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = External.m; sourceTree = "<group>"; };
+		E132FE8F1CBD545F006509BA /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		E132FE901CBD545F006509BA /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		E132FE961CBD547C006509BA /* TextEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditViewController.h; sourceTree = "<group>"; };
+		E132FE971CBD547C006509BA /* TextEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditViewController.m; sourceTree = "<group>"; };
+		E132FE9A1CBD54A3006509BA /* wallpaper-mountians.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wallpaper-mountians.jpg"; sourceTree = "<group>"; };
+		E132FE9B1CBD54A3006509BA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E132FE9C1CBD54A3006509BA /* delete_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_sign.png; sourceTree = "<group>"; };
+		E132FE9E1CBD54A3006509BA /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		E132FE9F1CBD54A3006509BA /* finder-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finder-icon.png"; sourceTree = "<group>"; };
+		E132FEA01CBD54A3006509BA /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		E132FEA11CBD54A3006509BA /* shared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shared.png; sourceTree = "<group>"; };
+		E132FEAC1CBD5834006509BA /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder.png; path = iFinder/folder.png; sourceTree = "<group>"; };
+		E132FEB01CBD7725006509BA /* SidebariDisk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidebariDisk.png; sourceTree = "<group>"; };
+		E132FEB11CBD7725006509BA /* SidebariPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidebariPhone.png; sourceTree = "<group>"; };
+		E132FEB41CBD7847006509BA /* SidebarMoviesFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidebarMoviesFolder.png; sourceTree = "<group>"; };
+		E132FEB51CBD7847006509BA /* SidebarMusicFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidebarMusicFolder.png; sourceTree = "<group>"; };
+		E132FEB61CBD7847006509BA /* SidebarPicturesFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SidebarPicturesFolder.png; sourceTree = "<group>"; };
+		E132FEBE1CBD8524006509BA /* Finder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Finder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E132FEC01CBD8524006509BA /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E132FEC31CBD8524006509BA /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E132FEC61CBD8524006509BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		E132FEC81CBD8524006509BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132FED01CBD85F1006509BA /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+		E132FED21CBD85FF006509BA /* empty_battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_battery.png; sourceTree = "<group>"; };
+		E132FED41CBD86B7006509BA /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth.png; sourceTree = "<group>"; };
+		E132FED61CBD86D2006509BA /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		E132FED81CBD88D4006509BA /* clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds.png; sourceTree = "<group>"; };
+		E132FEDA1CBD8926006509BA /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		E132FEDC1CBD95B4006509BA /* plist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plist.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E132FE4D1CBD5370006509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE661CBD5370006509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE711CBD5370006509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FEBB1CBD8524006509BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FEC11CBD8524006509BA /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E132FE471CBD5370006509BA = {
+			isa = PBXGroup;
+			children = (
+				E132FE521CBD5370006509BA /* iFinder */,
+				E132FE6C1CBD5370006509BA /* iFinderTests */,
+				E132FE771CBD5370006509BA /* iFinderUITests */,
+				E132FEC21CBD8524006509BA /* Finder */,
+				E132FEBF1CBD8524006509BA /* Frameworks */,
+				E132FE511CBD5370006509BA /* Products */,
+				E132FEDA1CBD8926006509BA /* keyboard.png */,
+				E132FED61CBD86D2006509BA /* sun.png */,
+				E132FED41CBD86B7006509BA /* bluetooth.png */,
+				E132FEDC1CBD95B4006509BA /* plist.png */,
+				E132FED21CBD85FF006509BA /* empty_battery.png */,
+				E132FED81CBD88D4006509BA /* clouds.png */,
+				E132FED01CBD85F1006509BA /* wifi.png */,
+				E132FE9A1CBD54A3006509BA /* wallpaper-mountians.jpg */,
+				E132FE9B1CBD54A3006509BA /* back.png */,
+				E132FE9C1CBD54A3006509BA /* delete_sign.png */,
+				E132FE9E1CBD54A3006509BA /* file.png */,
+				E132FE9F1CBD54A3006509BA /* finder-icon.png */,
+				E132FEA01CBD54A3006509BA /* forward.png */,
+				E132FEA11CBD54A3006509BA /* shared.png */,
+				E132FEAC1CBD5834006509BA /* folder.png */,
+				E132FEB01CBD7725006509BA /* SidebariDisk.png */,
+				E132FEB11CBD7725006509BA /* SidebariPhone.png */,
+				E132FEB41CBD7847006509BA /* SidebarMoviesFolder.png */,
+				E132FEB51CBD7847006509BA /* SidebarMusicFolder.png */,
+				E132FEB61CBD7847006509BA /* SidebarPicturesFolder.png */,
+			);
+			sourceTree = "<group>";
+		};
+		E132FE511CBD5370006509BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E132FE501CBD5370006509BA /* iFinder.app */,
+				E132FE691CBD5370006509BA /* iFinderTests.xctest */,
+				E132FE741CBD5370006509BA /* iFinderUITests.xctest */,
+				E132FEBE1CBD8524006509BA /* Finder.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E132FE521CBD5370006509BA /* iFinder */ = {
+			isa = PBXGroup;
+			children = (
+				E132FE891CBD545F006509BA /* AppDelegate.h */,
+				E132FE8A1CBD545F006509BA /* AppDelegate.m */,
+				E132FE8B1CBD545F006509BA /* DirectoryBrowserTableViewController.h */,
+				E132FE8C1CBD545F006509BA /* DirectoryBrowserTableViewController.m */,
+				E132FE8D1CBD545F006509BA /* External.h */,
+				E132FE8E1CBD545F006509BA /* External.m */,
+				E132FE8F1CBD545F006509BA /* Home.h */,
+				E132FE901CBD545F006509BA /* Home.m */,
+				E132FE541CBD5370006509BA /* main.m */,
+				E132FE961CBD547C006509BA /* TextEditViewController.h */,
+				E132FE971CBD547C006509BA /* TextEditViewController.m */,
+				E132FE5C1CBD5370006509BA /* Main.storyboard */,
+				E132FE5F1CBD5370006509BA /* Assets.xcassets */,
+				E132FE611CBD5370006509BA /* LaunchScreen.storyboard */,
+				E132FE531CBD5370006509BA /* Supporting Files */,
+			);
+			path = iFinder;
+			sourceTree = "<group>";
+		};
+		E132FE531CBD5370006509BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E132FE871CBD5455006509BA /* iFinder-Prefix.pch */,
+				E132FE641CBD5370006509BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E132FE6C1CBD5370006509BA /* iFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E132FE6D1CBD5370006509BA /* iFinderTests.m */,
+				E132FE6F1CBD5370006509BA /* Info.plist */,
+			);
+			path = iFinderTests;
+			sourceTree = "<group>";
+		};
+		E132FE771CBD5370006509BA /* iFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E132FE781CBD5370006509BA /* iFinderUITests.m */,
+				E132FE7A1CBD5370006509BA /* Info.plist */,
+			);
+			path = iFinderUITests;
+			sourceTree = "<group>";
+		};
+		E132FEBF1CBD8524006509BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E132FEC01CBD8524006509BA /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E132FEC21CBD8524006509BA /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				E132FEC31CBD8524006509BA /* TodayViewController.swift */,
+				E132FEC51CBD8524006509BA /* MainInterface.storyboard */,
+				E132FEC81CBD8524006509BA /* Info.plist */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E132FE4F1CBD5370006509BA /* iFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132FE7D1CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinder" */;
+			buildPhases = (
+				E132FE4C1CBD5370006509BA /* Sources */,
+				E132FE4D1CBD5370006509BA /* Frameworks */,
+				E132FE4E1CBD5370006509BA /* Resources */,
+				E132FECF1CBD8524006509BA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E132FECA1CBD8524006509BA /* PBXTargetDependency */,
+			);
+			name = iFinder;
+			productName = iFinder;
+			productReference = E132FE501CBD5370006509BA /* iFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E132FE681CBD5370006509BA /* iFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132FE801CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinderTests" */;
+			buildPhases = (
+				E132FE651CBD5370006509BA /* Sources */,
+				E132FE661CBD5370006509BA /* Frameworks */,
+				E132FE671CBD5370006509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E132FE6B1CBD5370006509BA /* PBXTargetDependency */,
+			);
+			name = iFinderTests;
+			productName = iFinderTests;
+			productReference = E132FE691CBD5370006509BA /* iFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E132FE731CBD5370006509BA /* iFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132FE831CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinderUITests" */;
+			buildPhases = (
+				E132FE701CBD5370006509BA /* Sources */,
+				E132FE711CBD5370006509BA /* Frameworks */,
+				E132FE721CBD5370006509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E132FE761CBD5370006509BA /* PBXTargetDependency */,
+			);
+			name = iFinderUITests;
+			productName = iFinderUITests;
+			productReference = E132FE741CBD5370006509BA /* iFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E132FEBD1CBD8524006509BA /* Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132FECC1CBD8524006509BA /* Build configuration list for PBXNativeTarget "Finder" */;
+			buildPhases = (
+				E132FEBA1CBD8524006509BA /* Sources */,
+				E132FEBB1CBD8524006509BA /* Frameworks */,
+				E132FEBC1CBD8524006509BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finder;
+			productName = Finder;
+			productReference = E132FEBE1CBD8524006509BA /* Finder.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E132FE481CBD5370006509BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MSDevs;
+				TargetAttributes = {
+					E132FE4F1CBD5370006509BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E132FE681CBD5370006509BA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E132FE4F1CBD5370006509BA;
+					};
+					E132FE731CBD5370006509BA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E132FE4F1CBD5370006509BA;
+					};
+					E132FEBD1CBD8524006509BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E132FE4B1CBD5370006509BA /* Build configuration list for PBXProject "iFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E132FE471CBD5370006509BA;
+			productRefGroup = E132FE511CBD5370006509BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E132FE4F1CBD5370006509BA /* iFinder */,
+				E132FE681CBD5370006509BA /* iFinderTests */,
+				E132FE731CBD5370006509BA /* iFinderUITests */,
+				E132FEBD1CBD8524006509BA /* Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E132FE4E1CBD5370006509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FEB81CBD7847006509BA /* SidebarMusicFolder.png in Resources */,
+				E132FEB71CBD7847006509BA /* SidebarMoviesFolder.png in Resources */,
+				E132FED11CBD85F1006509BA /* wifi.png in Resources */,
+				E132FE631CBD5370006509BA /* LaunchScreen.storyboard in Resources */,
+				E132FEB91CBD7847006509BA /* SidebarPicturesFolder.png in Resources */,
+				E132FEA91CBD54A3006509BA /* forward.png in Resources */,
+				E132FEA71CBD54A3006509BA /* file.png in Resources */,
+				E132FEB31CBD7725006509BA /* SidebariPhone.png in Resources */,
+				E132FED51CBD86B7006509BA /* bluetooth.png in Resources */,
+				E132FEA41CBD54A3006509BA /* back.png in Resources */,
+				E132FEA81CBD54A3006509BA /* finder-icon.png in Resources */,
+				E132FEA51CBD54A3006509BA /* delete_sign.png in Resources */,
+				E132FED71CBD86D2006509BA /* sun.png in Resources */,
+				E132FED91CBD88D4006509BA /* clouds.png in Resources */,
+				E132FEAA1CBD54A3006509BA /* shared.png in Resources */,
+				E132FEDD1CBD95B4006509BA /* plist.png in Resources */,
+				E132FEA31CBD54A3006509BA /* wallpaper-mountians.jpg in Resources */,
+				E132FE601CBD5370006509BA /* Assets.xcassets in Resources */,
+				E132FEAD1CBD5834006509BA /* folder.png in Resources */,
+				E132FEDB1CBD8926006509BA /* keyboard.png in Resources */,
+				E132FED31CBD85FF006509BA /* empty_battery.png in Resources */,
+				E132FE5E1CBD5370006509BA /* Main.storyboard in Resources */,
+				E132FEB21CBD7725006509BA /* SidebariDisk.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE671CBD5370006509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE721CBD5370006509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FEBC1CBD8524006509BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FEC71CBD8524006509BA /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E132FE4C1CBD5370006509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FE941CBD545F006509BA /* Home.m in Sources */,
+				E132FE931CBD545F006509BA /* External.m in Sources */,
+				E132FE991CBD547C006509BA /* TextEditViewController.m in Sources */,
+				E132FE921CBD545F006509BA /* DirectoryBrowserTableViewController.m in Sources */,
+				E132FE911CBD545F006509BA /* AppDelegate.m in Sources */,
+				E132FE551CBD5370006509BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE651CBD5370006509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FE6E1CBD5370006509BA /* iFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FE701CBD5370006509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FE791CBD5370006509BA /* iFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132FEBA1CBD8524006509BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132FEC41CBD8524006509BA /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E132FE6B1CBD5370006509BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E132FE4F1CBD5370006509BA /* iFinder */;
+			targetProxy = E132FE6A1CBD5370006509BA /* PBXContainerItemProxy */;
+		};
+		E132FE761CBD5370006509BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E132FE4F1CBD5370006509BA /* iFinder */;
+			targetProxy = E132FE751CBD5370006509BA /* PBXContainerItemProxy */;
+		};
+		E132FECA1CBD8524006509BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E132FEBD1CBD8524006509BA /* Finder */;
+			targetProxy = E132FEC91CBD8524006509BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E132FE5C1CBD5370006509BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E132FE5D1CBD5370006509BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E132FE611CBD5370006509BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E132FE621CBD5370006509BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E132FEC51CBD8524006509BA /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E132FEC61CBD8524006509BA /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E132FE7B1CBD5370006509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E132FE7C1CBD5370006509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E132FE7E1CBD5370006509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = iFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E132FE7F1CBD5370006509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = iFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E132FE811CBD5370006509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFinder.app/iFinder";
+			};
+			name = Debug;
+		};
+		E132FE821CBD5370006509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFinder.app/iFinder";
+			};
+			name = Release;
+		};
+		E132FE841CBD5370006509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iFinder;
+			};
+			name = Debug;
+		};
+		E132FE851CBD5370006509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iFinder;
+			};
+			name = Release;
+		};
+		E132FECD1CBD8524006509BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Finder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinder.Finder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E132FECE1CBD8524006509BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Finder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msdevs.iFinder.Finder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E132FE4B1CBD5370006509BA /* Build configuration list for PBXProject "iFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132FE7B1CBD5370006509BA /* Debug */,
+				E132FE7C1CBD5370006509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132FE7D1CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132FE7E1CBD5370006509BA /* Debug */,
+				E132FE7F1CBD5370006509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132FE801CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132FE811CBD5370006509BA /* Debug */,
+				E132FE821CBD5370006509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132FE831CBD5370006509BA /* Build configuration list for PBXNativeTarget "iFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132FE841CBD5370006509BA /* Debug */,
+				E132FE851CBD5370006509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132FECC1CBD8524006509BA /* Build configuration list for PBXNativeTarget "Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132FECD1CBD8524006509BA /* Debug */,
+				E132FECE1CBD8524006509BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E132FE481CBD5370006509BA /* Project object */;
+}

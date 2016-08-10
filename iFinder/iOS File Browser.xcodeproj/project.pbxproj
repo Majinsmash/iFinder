@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12FC6FB1CBC3C76008C2630 /* wallpaper-mountians.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E12FC6F61CBC3C76008C2630 /* wallpaper-mountians.jpg */; };
+		E12FC6FC1CBC3C76008C2630 /* shared.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC6F71CBC3C76008C2630 /* shared.png */; };
+		E12FC6FD1CBC3C76008C2630 /* smartphone_CPU.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC6F81CBC3C76008C2630 /* smartphone_CPU.png */; };
+		E12FC6FE1CBC3C76008C2630 /* external_link.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC6F91CBC3C76008C2630 /* external_link.png */; };
+		E12FC6FF1CBC3C76008C2630 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC6FA1CBC3C76008C2630 /* folder.png */; };
+		E12FC7011CBC3E73008C2630 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12FC7001CBC3E73008C2630 /* Launch.storyboard */; };
+		E12FC7031CBC3FA3008C2630 /* finder-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC7021CBC3FA3008C2630 /* finder-icon.png */; };
+		E12FC7051CBC4135008C2630 /* delete_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC7041CBC4135008C2630 /* delete_sign.png */; };
+		E12FC70C1CBC4727008C2630 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = E12FC70B1CBC4727008C2630 /* Home.m */; };
+		E12FC7141CBC5041008C2630 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12FC7131CBC5041008C2630 /* NotificationCenter.framework */; };
+		E12FC7241CBC5260008C2630 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = E12FC7231CBC5260008C2630 /* forward.png */; };
+		E132FE461CBD5221006509BA /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = E132FE451CBD5221006509BA /* file.png */; };
+		E15A999D1CBC6693002DA1A9 /* External.m in Sources */ = {isa = PBXBuildFile; fileRef = E15A999C1CBC6693002DA1A9 /* External.m */; };
+		E15A99A01CBC6911002DA1A9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E15A999F1CBC6911002DA1A9 /* back.png */; };
+		EA8083BD1770A5F500453139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8083BC1770A5F500453139 /* Foundation.framework */; };
+		EA8083BF1770A5F500453139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8083BE1770A5F500453139 /* CoreGraphics.framework */; };
+		EA8083C11770A5F500453139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8083C01770A5F500453139 /* UIKit.framework */; };
+		EA8083C71770A5F500453139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8083C51770A5F500453139 /* InfoPlist.strings */; };
+		EA8083C91770A5F500453139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8083C81770A5F500453139 /* main.m */; };
+		EA8083CD1770A5F500453139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8083CC1770A5F500453139 /* AppDelegate.m */; };
+		EA8083D01770A5F500453139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8083CE1770A5F500453139 /* Main.storyboard */; };
+		EA8083D81770A5F500453139 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8083D71770A5F500453139 /* Images.xcassets */; };
+		EA8083F61770A60E00453139 /* DirectoryBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8083F51770A60E00453139 /* DirectoryBrowserTableViewController.m */; };
+		EA8083FB1770A71000453139 /* TextEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8083FA1770A71000453139 /* TextEditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E12FC6F61CBC3C76008C2630 /* wallpaper-mountians.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wallpaper-mountians.jpg"; sourceTree = "<group>"; };
+		E12FC6F71CBC3C76008C2630 /* shared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shared.png; sourceTree = "<group>"; };
+		E12FC6F81CBC3C76008C2630 /* smartphone_CPU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartphone_CPU.png; sourceTree = "<group>"; };
+		E12FC6F91CBC3C76008C2630 /* external_link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = external_link.png; sourceTree = "<group>"; };
+		E12FC6FA1CBC3C76008C2630 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		E12FC7001CBC3E73008C2630 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Launch.storyboard; path = ../Launch.storyboard; sourceTree = "<group>"; };
+		E12FC7021CBC3FA3008C2630 /* finder-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finder-icon.png"; sourceTree = "<group>"; };
+		E12FC7041CBC4135008C2630 /* delete_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_sign.png; sourceTree = "<group>"; };
+		E12FC70A1CBC4710008C2630 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Home.h; path = ../Home.h; sourceTree = "<group>"; };
+		E12FC70B1CBC4727008C2630 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Home.m; path = ../Home.m; sourceTree = "<group>"; };
+		E12FC7121CBC5041008C2630 /* Finder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Finder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12FC7131CBC5041008C2630 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E12FC7231CBC5260008C2630 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		E132FE451CBD5221006509BA /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		E15A999C1CBC6693002DA1A9 /* External.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = External.m; sourceTree = "<group>"; };
+		E15A999E1CBC66AF002DA1A9 /* External.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = External.h; sourceTree = "<group>"; };
+		E15A999F1CBC6911002DA1A9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		EA8083B91770A5F500453139 /* iOS File Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS File Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8083BC1770A5F500453139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA8083BE1770A5F500453139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA8083C01770A5F500453139 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA8083C41770A5F500453139 /* iOS File Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS File Browser-Info.plist"; sourceTree = "<group>"; };
+		EA8083C61770A5F500453139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA8083C81770A5F500453139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA8083CA1770A5F500453139 /* iOS File Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS File Browser-Prefix.pch"; sourceTree = "<group>"; };
+		EA8083CB1770A5F500453139 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA8083CC1770A5F500453139 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA8083CF1770A5F500453139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8083D71770A5F500453139 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA8083F41770A60E00453139 /* DirectoryBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryBrowserTableViewController.h; sourceTree = "<group>"; };
+		EA8083F51770A60E00453139 /* DirectoryBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryBrowserTableViewController.m; sourceTree = "<group>"; };
+		EA8083F91770A71000453139 /* TextEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditViewController.h; sourceTree = "<group>"; };
+		EA8083FA1770A71000453139 /* TextEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12FC70F1CBC5041008C2630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FC7141CBC5041008C2630 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8083B61770A5F500453139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8083BF1770A5F500453139 /* CoreGraphics.framework in Frameworks */,
+				EA8083C11770A5F500453139 /* UIKit.framework in Frameworks */,
+				EA8083BD1770A5F500453139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8083B01770A5F500453139 = {
+			isa = PBXGroup;
+			children = (
+				EA8083C21770A5F500453139 /* DirBrowse */,
+				EA8083BB1770A5F500453139 /* Frameworks */,
+				EA8083BA1770A5F500453139 /* Products */,
+				E12FC6F61CBC3C76008C2630 /* wallpaper-mountians.jpg */,
+				E12FC6F71CBC3C76008C2630 /* shared.png */,
+				E12FC6F81CBC3C76008C2630 /* smartphone_CPU.png */,
+				E132FE451CBD5221006509BA /* file.png */,
+				E12FC6F91CBC3C76008C2630 /* external_link.png */,
+				E12FC6FA1CBC3C76008C2630 /* folder.png */,
+				E12FC7021CBC3FA3008C2630 /* finder-icon.png */,
+				E12FC7041CBC4135008C2630 /* delete_sign.png */,
+				E12FC7231CBC5260008C2630 /* forward.png */,
+				E15A999F1CBC6911002DA1A9 /* back.png */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8083BA1770A5F500453139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8083B91770A5F500453139 /* iOS File Browser.app */,
+				E12FC7121CBC5041008C2630 /* Finder.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8083BB1770A5F500453139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA8083BC1770A5F500453139 /* Foundation.framework */,
+				EA8083BE1770A5F500453139 /* CoreGraphics.framework */,
+				EA8083C01770A5F500453139 /* UIKit.framework */,
+				E12FC7131CBC5041008C2630 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA8083C21770A5F500453139 /* DirBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				E12FC70A1CBC4710008C2630 /* Home.h */,
+				E12FC70B1CBC4727008C2630 /* Home.m */,
+				EA8083F41770A60E00453139 /* DirectoryBrowserTableViewController.h */,
+				EA8083F51770A60E00453139 /* DirectoryBrowserTableViewController.m */,
+				EA8083F91770A71000453139 /* TextEditViewController.h */,
+				EA8083FA1770A71000453139 /* TextEditViewController.m */,
+				EA8083CB1770A5F500453139 /* AppDelegate.h */,
+				EA8083CC1770A5F500453139 /* AppDelegate.m */,
+				EA8083CE1770A5F500453139 /* Main.storyboard */,
+				E15A999C1CBC6693002DA1A9 /* External.m */,
+				E15A999E1CBC66AF002DA1A9 /* External.h */,
+				E12FC7001CBC3E73008C2630 /* Launch.storyboard */,
+				EA8083D71770A5F500453139 /* Images.xcassets */,
+				EA8083C31770A5F500453139 /* Supporting Files */,
+			);
+			path = DirBrowse;
+			sourceTree = "<group>";
+		};
+		EA8083C31770A5F500453139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8083C41770A5F500453139 /* iOS File Browser-Info.plist */,
+				EA8083C51770A5F500453139 /* InfoPlist.strings */,
+				EA8083C81770A5F500453139 /* main.m */,
+				EA8083CA1770A5F500453139 /* iOS File Browser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12FC7111CBC5041008C2630 /* Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12FC71F1CBC5041008C2630 /* Build configuration list for PBXNativeTarget "Finder" */;
+			buildPhases = (
+				E12FC70E1CBC5041008C2630 /* Sources */,
+				E12FC70F1CBC5041008C2630 /* Frameworks */,
+				E12FC7101CBC5041008C2630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finder;
+			productName = Finder;
+			productReference = E12FC7121CBC5041008C2630 /* Finder.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EA8083B81770A5F500453139 /* iOS File Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8083EE1770A5F600453139 /* Build configuration list for PBXNativeTarget "iOS File Browser" */;
+			buildPhases = (
+				EA8083B51770A5F500453139 /* Sources */,
+				EA8083B61770A5F500453139 /* Frameworks */,
+				EA8083B71770A5F500453139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS File Browser";
+			productName = DirBrowse;
+			productReference = EA8083B91770A5F500453139 /* iOS File Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8083B11770A5F500453139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dynamically Loaded";
+				TargetAttributes = {
+					E12FC7111CBC5041008C2630 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EA8083B81770A5F500453139 = {
+						DevelopmentTeam = 66AWLLBEX8;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EA8083B41770A5F500453139 /* Build configuration list for PBXProject "iOS File Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8083B01770A5F500453139;
+			productRefGroup = EA8083BA1770A5F500453139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8083B81770A5F500453139 /* iOS File Browser */,
+				E12FC7111CBC5041008C2630 /* Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E12FC7101CBC5041008C2630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8083B71770A5F500453139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12FC6FC1CBC3C76008C2630 /* shared.png in Resources */,
+				E12FC6FF1CBC3C76008C2630 /* folder.png in Resources */,
+				E12FC7011CBC3E73008C2630 /* Launch.storyboard in Resources */,
+				E12FC7241CBC5260008C2630 /* forward.png in Resources */,
+				E12FC7051CBC4135008C2630 /* delete_sign.png in Resources */,
+				E12FC6FD1CBC3C76008C2630 /* smartphone_CPU.png in Resources */,
+				E15A99A01CBC6911002DA1A9 /* back.png in Resources */,
+				E12FC7031CBC3FA3008C2630 /* finder-icon.png in Resources */,
+				EA8083D81770A5F500453139 /* Images.xcassets in Resources */,
+				E12FC6FE1CBC3C76008C2630 /* external_link.png in Resources */,
+				E12FC6FB1CBC3C76008C2630 /* wallpaper-mountians.jpg in Resources */,
+				EA8083C71770A5F500453139 /* InfoPlist.strings in Resources */,
+				EA8083D01770A5F500453139 /* Main.storyboard in Resources */,
+				E132FE461CBD5221006509BA /* file.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12FC70E1CBC5041008C2630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8083B51770A5F500453139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A999D1CBC6693002DA1A9 /* External.m in Sources */,
+				E12FC70C1CBC4727008C2630 /* Home.m in Sources */,
+				EA8083CD1770A5F500453139 /* AppDelegate.m in Sources */,
+				EA8083FB1770A71000453139 /* TextEditViewController.m in Sources */,
+				EA8083C91770A5F500453139 /* main.m in Sources */,
+				EA8083F61770A60E00453139 /* DirectoryBrowserTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA8083C51770A5F500453139 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8083C61770A5F500453139 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA8083CE1770A5F500453139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8083CF1770A5F500453139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E12FC7201CBC5041008C2630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdevs.iOS-File-Browser.Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E12FC7211CBC5041008C2630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Finder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdevs.iOS-File-Browser.Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EA8083EC1770A5F600453139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA8083ED1770A5F600453139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8083EF1770A5F600453139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirBrowse/iOS File Browser-Prefix.pch";
+				INFOPLIST_FILE = "DirBrowse/iOS File Browser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdevs.iOS-File-Browser";
+				PRODUCT_NAME = "iOS File Browser";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA8083F01770A5F600453139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DirBrowse/iOS File Browser-Prefix.pch";
+				INFOPLIST_FILE = "DirBrowse/iOS File Browser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdevs.iOS-File-Browser";
+				PRODUCT_NAME = "iOS File Browser";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12FC71F1CBC5041008C2630 /* Build configuration list for PBXNativeTarget "Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12FC7201CBC5041008C2630 /* Debug */,
+				E12FC7211CBC5041008C2630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8083B41770A5F500453139 /* Build configuration list for PBXProject "iOS File Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8083EC1770A5F600453139 /* Debug */,
+				EA8083ED1770A5F600453139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8083EE1770A5F600453139 /* Build configuration list for PBXNativeTarget "iOS File Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8083EF1770A5F600453139 /* Debug */,
+				EA8083F01770A5F600453139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8083B11770A5F500453139 /* Project object */;
+}

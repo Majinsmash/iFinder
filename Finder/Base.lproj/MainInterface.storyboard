@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Finder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf5-7S-XZx">
+                                <rect key="frame" x="144" y="8" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="mWs-vx-YxS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1i-zp-WUA">
+                                <rect key="frame" x="110" y="74" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131205673756" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a9h-vJ-iWv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="iCloud Drive">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="cloudApp:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="B9s-W7-J3R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvQ-yS-jQL">
+                                <rect key="frame" x="110" y="42" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131210000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="edA-Fl-DlK"/>
+                                </constraints>
+                                <state key="normal" title="Finder">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="finder:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="hdr-Sr-XSQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYG-54-xF7">
+                                <rect key="frame" x="110" y="106" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131210000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OwV-BA-8mr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Keyboard">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="keyBoard:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="oxx-Gg-Qn3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOR-Yv-Y84">
+                                <rect key="frame" x="110" y="138" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131210000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="h3u-xg-Ud2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="WiFi">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="wifiLaunch:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="Uxd-Ob-w6d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei7-9u-VnC">
+                                <rect key="frame" x="110" y="170" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131210000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="c38-66-pOz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Bluetooth">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bluetoothLaunch:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="n3G-Lg-v9i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvG-bK-fZJ">
+                                <rect key="frame" x="110" y="202" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.039284131210000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rW6-CH-9g9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Battery">
+                                    <color key="titleColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="battLaunch:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="ce9-mY-R17"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="MvQ-yS-jQL" firstAttribute="leading" secondItem="c1i-zp-WUA" secondAttribute="leading" id="38I-8l-x7W"/>
+                            <constraint firstItem="NOR-Yv-Y84" firstAttribute="top" secondItem="rYG-54-xF7" secondAttribute="bottom" constant="2" id="42j-z6-mAn"/>
+                            <constraint firstItem="rYG-54-xF7" firstAttribute="top" secondItem="c1i-zp-WUA" secondAttribute="bottom" constant="2" id="8aI-tR-08U"/>
+                            <constraint firstItem="Nf5-7S-XZx" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" symbolic="YES" id="AbV-PO-qzW"/>
+                            <constraint firstItem="c1i-zp-WUA" firstAttribute="trailing" secondItem="rYG-54-xF7" secondAttribute="trailing" id="Fnz-9E-uEJ"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="BvG-bK-fZJ" secondAttribute="bottom" constant="8" symbolic="YES" id="I0h-Se-S5S"/>
+                            <constraint firstItem="Nf5-7S-XZx" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="IYE-L8-Ekh"/>
+                            <constraint firstItem="Ei7-9u-VnC" firstAttribute="trailing" secondItem="BvG-bK-fZJ" secondAttribute="trailing" id="JyY-uQ-oge"/>
+                            <constraint firstItem="BvG-bK-fZJ" firstAttribute="top" secondItem="Ei7-9u-VnC" secondAttribute="bottom" constant="2" id="KE7-4T-XLb"/>
+                            <constraint firstItem="NOR-Yv-Y84" firstAttribute="leading" secondItem="Ei7-9u-VnC" secondAttribute="leading" id="OxR-S6-hTS"/>
+                            <constraint firstItem="Nf5-7S-XZx" firstAttribute="centerX" secondItem="MvQ-yS-jQL" secondAttribute="centerX" id="Pwg-yK-ZL8"/>
+                            <constraint firstItem="MvQ-yS-jQL" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" constant="94" id="QcQ-jR-gYP"/>
+                            <constraint firstItem="NOR-Yv-Y84" firstAttribute="trailing" secondItem="Ei7-9u-VnC" secondAttribute="trailing" id="SjC-63-obf"/>
+                            <constraint firstItem="MvQ-yS-jQL" firstAttribute="trailing" secondItem="c1i-zp-WUA" secondAttribute="trailing" id="Vgv-Hm-V5D"/>
+                            <constraint firstItem="rYG-54-xF7" firstAttribute="leading" secondItem="NOR-Yv-Y84" secondAttribute="leading" id="YdV-iW-wxs"/>
+                            <constraint firstItem="c1i-zp-WUA" firstAttribute="top" secondItem="MvQ-yS-jQL" secondAttribute="bottom" constant="2" id="fDi-B9-DsL"/>
+                            <constraint firstItem="c1i-zp-WUA" firstAttribute="leading" secondItem="rYG-54-xF7" secondAttribute="leading" id="fQf-97-Hj8"/>
+                            <constraint firstItem="MvQ-yS-jQL" firstAttribute="top" secondItem="Nf5-7S-XZx" secondAttribute="bottom" constant="2" id="mti-gg-iaA"/>
+                            <constraint firstItem="Ei7-9u-VnC" firstAttribute="top" secondItem="NOR-Yv-Y84" secondAttribute="bottom" constant="2" id="sIg-qh-aUk"/>
+                            <constraint firstItem="rYG-54-xF7" firstAttribute="trailing" secondItem="NOR-Yv-Y84" secondAttribute="trailing" id="uNn-e2-k2v"/>
+                            <constraint firstItem="Ei7-9u-VnC" firstAttribute="leading" secondItem="BvG-bK-fZJ" secondAttribute="leading" id="zgC-FO-trH"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="240"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="516" y="285"/>
+        </scene>
+    </scenes>
+</document>
