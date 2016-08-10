@@ -1,4 +1,4 @@
-iOS-File-Browser
+iFinder
 ================
 
-iOS file browser that lets you quickly explore the file system and mail interesting files to yourself
+A redesigned version of marek’s DirBrowse, to look more along the lines of Finder for OS X/macOS
